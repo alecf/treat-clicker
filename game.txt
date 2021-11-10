@@ -9,6 +9,9 @@ Let's make a game!
 Settings
 	background:images/background.jpg
 	building cost increase:115%
-	building cost refund:50%
+	building cost refund:75%
 	spritesheet:icons, 48 by 48, stuff/bunnyIcons.png
 	stylesheet:stuff/bigBlue.css
+
+Layout
+	use default
