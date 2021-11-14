@@ -29,4 +29,11 @@ Buttons
 		tooltip origin:bottom
 		tooltip class:red
 
-		
+Resources
+	*treat|treats
+		name:Treat|Treats
+		desc: El Peto Treato magnito
+		icon:icons[0,0]
+		class:noBackground
+		show earned
+				
