@@ -37,3 +37,28 @@ Resources
 		class:noBackground
 		show earned
 				
+				Buildings
+	*dog|dogs
+		name:Dog|Dogs
+		desc:A nice pupper to eat your treats
+		icon:icons[3,0]
+		cost:15 treats
+		on tick:yield 0.1 bunny
+		unlocked
+	
+	*hutch|hutches
+		name:Rabbit hutch|Rabbit hutches
+		desc:A bit roomier than a cage, with enough space to hop around.<//><b>Effect:</b><.>Produces 1 rabbit every 2 seconds.
+		icon:icons[3,1]
+		cost:100 bunnies
+		on tick:yield 0.5 bunnies
+		req:100 bunnies:earned
+	
+	*coop|coops
+		name:Rabbit coop|Rabbit coops
+		desc:A much nicer rabbit home where full bunny families can live.<//><b>Effect:</b><.>Produces 5 rabbits per second.
+		icon:icons[3,2]
+		cost:600 bunnies
+		on tick:yield 5 bunnies
+		req:600 bunnies:earned
+	
