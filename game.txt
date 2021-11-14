@@ -43,10 +43,10 @@ Resources
 		desc:A nice pupper to eat your treats
 		icon:icons[3,0]
 		cost:15 treats
-		on tick:yield 0.1 bunny
+		on tick:yield 0.1 treat
 		unlocked
 	
-	*hutch|hutches
+/*	*hutch|hutches
 		name:Rabbit hutch|Rabbit hutches
 		desc:A bit roomier than a cage, with enough space to hop around.<//><b>Effect:</b><.>Produces 1 rabbit every 2 seconds.
 		icon:icons[3,1]
@@ -61,4 +61,4 @@ Resources
 		cost:600 bunnies
 		on tick:yield 5 bunnies
 		req:600 bunnies:earned
-	
+	*/
