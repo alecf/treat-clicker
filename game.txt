@@ -17,7 +17,7 @@ Layout
 	use default
 
 Buttons
-	*bunnyButton
+	*treatButton
 		name:Make a treat
 		desc:Click this treat to get more treats!
 		on click:anim icon wobble
@@ -62,3 +62,22 @@ Resources
 		on tick:yield 5 bunnies
 		req:600 bunnies:earned
 	*/
+
+Upgrades
+
+	*bettertreats
+		name:Tastier Treats
+		desc:Yummier treats means more sales
+		icon:icons[1,1]
+		cost:100 treats
+		passive:increase treat yield of treatButton by 1
+		req:10 treats:earned
+		
+			*biggerbags
+		name:Bigger Bags
+		desc:Bigger bags hold even more treats
+		icon:icons[1,1]
+		cost:1000 treats
+		passive:increase treats yield of treatButton by 2
+		req:100 treats:earned
+		
