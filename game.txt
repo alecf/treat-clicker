@@ -46,9 +46,9 @@ Resources
 		on tick:yield 0.1 treat
 		unlocked
 	
-	*hutch|hutches
-		name:Rabbit hutch|Rabbit hutches
-		desc:A bit roomier than a cage, with enough space to hop around.<//><b>Effect:</b><.>Produces 1 rabbit every 2 seconds.
+	*fat cat|cats
+		name:Fat Cat|Cats
+		desc:A very fat cat to gorge on your treats.
 		icon:icons[3,1]
 		cost:100 treats
 		on tick:yield 1 treat
