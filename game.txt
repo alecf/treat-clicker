@@ -46,7 +46,7 @@ Resources
 		on tick:yield 0.1 treat
 		unlocked
 	
-	*fat cat|cats
+	*cat|cats
 		name:Fat Cat|Cats
 		desc:A very fat cat to gorge on your treats.
 		icon:icons[3,1]
