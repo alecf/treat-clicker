@@ -22,7 +22,7 @@ Buttons
 		desc:Click this treat to get more treats!
 		on click:anim icon wobble
 		on click:yield 1 treat
-		icon:images/training_treat.png
+		icon:https://jovial-hawking-e84d60.netlify.app/images/training_treat.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
