@@ -22,7 +22,7 @@ Buttons
 		desc:Click this treat to get more treats!
 		on click:anim icon wobble
 		on click:yield 1 treat
-		icon:stuff/bunny.png
+		icon:images/training_treat.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
